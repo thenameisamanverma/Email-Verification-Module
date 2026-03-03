@@ -1,0 +1,22 @@
+{
+  "name": "email-verifer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dns": "^0.2.2",
+    "nodemailer": "^8.0.1",
+    "smtp-connection": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
